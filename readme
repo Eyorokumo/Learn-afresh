@@ -1,0 +1,47 @@
+## Offline study alone
+# basic layout
+<!--
+* H1 ,p tags 
+??**comments,we can do muiltip comment
+***
+ -->
+ ## instaling live server
+ <!-- 
+ * The server will open it on what we call our local host, it will auto reload when save it,when we save html,css or js files it will automatically reload
+ !!** in vscode we can generate our html structures 
+ ??***
+  -->
+  ### Meta Tags & Search Engines
+  <!-- 
+  * There are tags used in explaining the pages content on our websites,and they don't appear on the page ,nobody sees them they just explains the pages to us on the websites
+  !!** charset:which is the character set and specifies the character encoding of the page ,while UTF-8 is basically the default 
+  ??***   <meta name="viewport" content="width=device-width, initial-scale=1.0">: this talks about the responsiveness of the page across all devices
+  !!****  <meta http-equiv="X-UA-Compatible" content="ie=edge">:these next one has to do with browser compactaility
+
+  ??***** lots more just check my 03_meta_tag for the few i have there
+   -->
+
+   #### TYPOGRAPHY
+   <!-- 
+   * Headings: <h1> these deals with the heading examples like chapter one and so on
+   !!** Paragraphs:as the name implies is the noted as <p></p>,under the we still have tag like the strong tag which is a bold text,
+   then while the <em> </em>
+   br:line break and they are called void elements
+   ??***Typography
+    -->
+
+##### Links, images, 
+<!-- 
+*Links: there two types of links internal,external
+** images : these is done in 2 face local & remote images
+ -->
+ # lists, Tables
+ <!-- !
+ * Lists:Order list, unOrdered list
+ !!** Table:
+ ! -->
+
+ ## FORMS, INPUTS
+<!-- forms are used to submit information -->
+### Block ,inline ,
+
