@@ -6,10 +6,70 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Float & Align</title>
   <style>
+    *{
+      box-sizing: border-box;
+    }
+    body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1.4em;
+    }
+    .container{
+      max-width:960px;
+      margin: 30px auto;
+    }
+
+    .clr{
+      clear: both;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border:1px solid #333;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .box p{
+      /* text-align proprty */
+      text-align: left;
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+    }
     
+    #box-2{
+      float: left;
+      width:68%;
+    }
+
+    #box-3 {
+      float: right;
+      width:30%
+    }
   </style>
 </head>
 <body>
+  <div class="container">
+
+    <div id="box-1" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quo impedit molestiae sunt ab placeat magnam cupiditate quasi sed praesentium illo in non quia debitis tenetur officia voluptas, illum recusandae, nihil quos eligendi vitae. Ipsa illo harum rem nostrum ullam!</p>
+    </div>
+    <div id="box-2" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quo impedit molestiae sunt ab placeat magnam cupiditate quasi sed praesentium illo in non quia debitis tenetur officia voluptas, illum recusandae, nihil quos eligendi vitae. Ipsa illo harum rem nostrum ullam!</p>
+    </div>
+    <div id="box-3" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quo impedit molestiae sunt ab placeat magnam cupiditate quasi sed praesentium illo in non quia debitis tenetur officia voluptas, illum recusandae, nihil quos eligendi vitae. Ipsa illo harum rem nostrum ullam!</p>
+    </div>
+    <div class="clr"></div>
+    <div id="box-4" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quo impedit molestiae sunt ab placeat magnam cupiditate quasi sed praesentium illo in non quia debitis tenetur officia voluptas, illum recusandae, nihil quos eligendi vitae. Ipsa illo harum rem nostrum ullam!</p>
+    </div>
+  </div>
+
   
 </body>
 </html>
